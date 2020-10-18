@@ -28,13 +28,25 @@ arr3 = []
 for element in arr[0][2] :
     arr2.append(element)
     
-print(arr2)
+#print(arr2)
 arr2.reverse()
-print(arr2)
+#print(arr2)
+
+string1 = ""
+for element in arr2 :
+    string1 += element
+
+print(string1)
 
 for element in arr[1][2] :
     arr3.append(element)
     
-print(arr3)
+#print(arr3)
 arr3.reverse()
-print(arr3)
+#print(arr3)
+
+string2 = ""
+for element in arr3 :
+    string2 += element
+
+print(string2)
