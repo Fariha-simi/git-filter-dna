@@ -23,11 +23,9 @@ for element in user_dna_sequence :
         arr.append(element)
 print(arr)
 
-for i in arr[0][2] :
-    arr[0][2] = i.replace("A","G")
-    print(arr[0][2], end = '')
-     
-for i in arr[1][2] :
-    arr[1][2] = i.replace("A","G")
-    print(arr[1][2], end = '')    
+arr[0][2] = arr[0][2].replace("A","G") 
+print(arr[0][2])
+
+arr[1][2] = arr[1][2].replace("A","G") 
+print(arr[1][2])
     
