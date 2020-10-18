@@ -25,9 +25,9 @@ print(arr)
 
 for i in arr[0][2] :
     arr[0][2] = i.replace("A","G")
-    print(arr[0][2], end = "\n")
-        
+    print(arr[0][2], end = '')
+     
 for i in arr[1][2] :
     arr[1][2] = i.replace("A","G")
-    print(arr[1][2], end = "\n")    
+    print(arr[1][2], end = '')    
     
