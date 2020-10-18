@@ -21,7 +21,7 @@ dna_elements = ["A", "T", "G", "C"]
 string1 = user_dna_sequence[0][2]
 for index in range(19,len(string1)) :
     #print(string1[index],index)
-     if string1[20] == "A" :
+     if string1[20] == "G" :
         
          print(user_dna_sequence[0])
         
@@ -29,7 +29,7 @@ for index in range(19,len(string1)) :
 string2 = user_dna_sequence[1][2]
 for index in range(18,len(string2)) :
     #print(string1[index],index)
-     if string2[18] == "A" :
+     if string2[18] == "G" :
         
          print(user_dna_sequence[1])
         
@@ -37,7 +37,7 @@ for index in range(18,len(string2)) :
 string3 = user_dna_sequence[2][2]
 for index in range(18,len(string3)) :
     #print(string1[index],index)
-     if string3[18] == "A" :
+     if string3[18] == "G" :
         
          print(user_dna_sequence[2])
         
@@ -45,9 +45,9 @@ for index in range(18,len(string3)) :
 string4 = user_dna_sequence[3][2]
 for index in range(17,len(string3)) :
     #print(string1[index],index)
-     if string3[17] == "A" :
+     if string3[17] == "G" :
         
-         print(user_dna_sequence[2])
+         print(user_dna_sequence[3])
         
 
 
